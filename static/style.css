@@ -1,0 +1,151 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #0b0f19;
+    color: #f8fafc;
+    min-height: 100vh;
+}
+
+.topbar {
+    background: #151c2b;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #293449;
+}
+
+.topbar h2 span {
+    color: #a78bfa;
+}
+
+.container {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 15px;
+}
+
+.auth-card,
+.section-card {
+    background: #151c2b;
+    border: 1px solid #293449;
+    padding: 25px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+h1, h3 {
+    margin-bottom: 15px;
+}
+
+p {
+    color: #94a3b8;
+    margin-bottom: 15px;
+}
+
+input, select {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0 18px;
+    background: #0b1220;
+    color: white;
+    border: 1px solid #293449;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+label {
+    color: #94a3b8;
+    font-size: 14px;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    background: #7c3aed;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:disabled {
+    opacity: 0.5;
+}
+
+a {
+    color: #a78bfa;
+    text-decoration: none;
+}
+
+.balance-card {
+    background: linear-gradient(135deg, #6d28d9, #4c1d95);
+}
+
+.balance-card h2 {
+    font-size: 32px;
+    margin: 15px 0;
+}
+
+.secondary-btn {
+    background: #293449;
+    margin-top: 10px;
+}
+
+.price-box {
+    background: #0b1220;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 15px 0;
+}
+
+.price-box h2 {
+    color: #a78bfa;
+    margin-top: 10px;
+}
+
+.message {
+    padding: 15px;
+    border-radius: 8px;
+    margin: 15px 0;
+    overflow-wrap: anywhere;
+}
+
+.success {
+    color: #86efac;
+    background: #142b22;
+}
+
+.error {
+    color: #fca5a5;
+    background: #351919;
+}
+
+.hidden {
+    display: none !important;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    color: #64748b;
+}
+
+@media (max-width: 480px) {
+    .container {
+        margin: 15px auto;
+    }
+
+    .auth-card,
+    .section-card {
+        padding: 20px;
+    }
+}
